@@ -18,7 +18,8 @@ after –d you can use use any other disease id
 python opentarget_query.py -d Orphanet_399
 
 the application create a log file called: log_opentarget_query.txt to check the output carefully with date and time
-as simple analysis I just filet the association score overall summary higher than 0.2 and “direct” association
+as simple analysis I just filet the association score overall summary higher than 0.2 and “direct” association.
+
 opentargetclient library is used for implementation.
 
 
@@ -32,7 +33,10 @@ QUESTIO2-5
 
 ANSWER 2-5:
 For this part I developed endpoint_query.py and it has no argument just to see each part, the system ask you to press enter.
-Plus the stdout print , the log file “called log_endpoint_query.txt” will be created that save the tables in a text and it is available in 
+Plus the stdout print , the log file “called log_endpoint_query.txt” will be created that save the tables in a text.
 
-for this part there is no filtering and all association scores are shown.
+for the result of the query there is no filtering and all association scores are shown.
+
 For this part I used REST API with request library.
+
+
